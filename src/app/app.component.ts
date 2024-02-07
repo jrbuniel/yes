@@ -11,8 +11,8 @@ import { RouterModule } from '@angular/router';
 export class AppComponent {
   faClipboard = faClipboard;
   
-  open: boolean = false;
-  text: string = 'Happy Anniversary my love <br> haha';
+  // open: boolean = false;
+  // text: string = 'Happy Anniversary my love <br> haha';
 
   ngOnInit() {
       
@@ -26,17 +26,17 @@ export class AppComponent {
   //   }
   // }
 
-  nextPage(): void {
-    window.location.href = "yes.html";
-  }
+  // nextPage(): void {
+  //   window.location.href = "yes.html";
+  // }
 
-  moveButton(): void {
-    var noButton = document.getElementById('noButton') as HTMLElement;
+  // moveButton(): void {
+  //   var noButton = document.getElementById('noButton') as HTMLElement;
 
-    var x = Math.random() * (window.innerWidth - noButton.offsetWidth) - 85;
-    var y = Math.random() * (window.innerHeight - noButton.offsetHeight) - 48;
+  //   var x = Math.random() * (window.innerWidth - noButton.offsetWidth) - 85;
+  //   var y = Math.random() * (window.innerHeight - noButton.offsetHeight) - 48;
 
-    noButton.style.left = `${x}px`;
-    noButton.style.top = `${y}px`;
-  }
+  //   noButton.style.left = `${x}px`;
+  //   noButton.style.top = `${y}px`;
+  // }
 }
